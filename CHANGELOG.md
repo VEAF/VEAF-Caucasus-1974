@@ -1,3 +1,12 @@
+* ADD MISSION Intercept Transport from Tbilisi to Gudauta
+* ADD MISSION Intercept RECON Patrol from Tbilisi to Gudauta (on demand / scalable)
+* ADD SITUATION SOCHI RED airport
+* ADD SITUATION GUDAUTA BLUE airport
+* FIX RED-AI Kutaisi-F86-ia-1 AirToAir rules
+* ADD RED-AI RED-Magic-Escort (2x MiG-23)
+* ADD BLUE-AI BLUE-Magic-Escort (2x F-23)
+* ADD BLUE-PLAYER Kutaisi F-5 x4
+
 ### 0.0.1 
 
 * ADD SITUATION Nalchik RED airport

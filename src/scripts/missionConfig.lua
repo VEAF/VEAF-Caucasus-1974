@@ -76,22 +76,22 @@ if veafAssets then
     veaf.loggers.get(veaf.Id):info("Loading configuration")
     veafAssets.Assets = {
 		-- list the assets in the mission below
-        --[[
-		{sort=1, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 11X TAA\nU226 (11)"},  
-		{sort=2, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 10X STS\nICLS 10\nU225 (10)"},  
-		{sort=2, name="CSG-71 Roosevelt", description="Roosevelt (CVN)", information="Tacan 12X RHR\nICLS 11\nU227 (12)"},  
-		{sort=3, name="T1-Arco-1", description="Arco-1 (KC-135)", information="Tacan 64Y\nU290.50 (20)\nZone OUEST", linked="T1-Arco-1 escort"}, 
-		{sort=4, name="T2-Shell-1", description="Shell-1 (KC-135 MPRS)", information="Tacan 62Y\nU290.30 (18)\nZone EST", linked="T2-Shell-1 escort"},  
-		{sort=5, name="T3-Texaco-1", description="Texaco-1 (KC-135 MPRS)", information="Tacan 60Y\nU290.10 (17)\nZone OUEST", linked="T3-Texaco-1 escort"},  
-		{sort=6, name="T4-Shell-2", description="Shell-2 (KC-135)", information="Tacan 63Y\nU290.40 (19)\nZone EST", linked="T4-Shell-2 escort"},  
-		{sort=6, name="T5-Petrolsky", description="900 (IL-78M, RED)", information="U267", linked="T5-Petrolsky escort"},  
-		{sort=7, name="CVN-74 Stennis S3B-Tanker", description="Texaco-7 (S3-B)", information="Tacan 75X\nU290.90\nZone PA"},  
-		{sort=7, name="CVN-71 Roosevelt S3B-Tanker", description="Texaco-8 (S3-B)", information="Tacan 76X\nU290.80\nZone PA"},  
-		{sort=8, name="Bizmuth", description="Colt-1 AFAC Bizmuth (MQ-9)", information="L1688 V118.80 (18)", jtac=1688, freq=118.80, mod="am"},
-		{sort=9, name="Agate", description="Dodge-1 AFAC Agate (MQ-9)", information="L1687 V118.90 (19)", jtac=1687, freq=118.90, mod="am"},  
-		{sort=10, name="A1-Magic", description="Magic (E-2D)", information="Datalink 315.3 Mhz\nU282.20 (13)", linked="A1-Magic escort"},  
-		{sort=11, name="A2-Overlordsky", description="Overlordsky (A-50, RED)", information="V112.12"},  
-        ]]
+		{sort=1, name="RED-Magic", description="RED Magic (A-50)", information="U251 / U10", linked="RED-Magic-Escort"},  
+		{sort=2, name="BLUE-Magic", description="BLUE Magic (E-2D)", information="U251 / U10", linked="BLUE-Magic-Escort"},  
+		-- {sort=1, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 11X TAA\nU226 (11)"},  
+		-- {sort=2, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 10X STS\nICLS 10\nU225 (10)"},  
+		-- {sort=2, name="CSG-71 Roosevelt", description="Roosevelt (CVN)", information="Tacan 12X RHR\nICLS 11\nU227 (12)"},  
+		-- {sort=3, name="T1-Arco-1", description="Arco-1 (KC-135)", information="Tacan 64Y\nU290.50 (20)\nZone OUEST", linked="T1-Arco-1 escort"}, 
+		-- {sort=4, name="T2-Shell-1", description="Shell-1 (KC-135 MPRS)", information="Tacan 62Y\nU290.30 (18)\nZone EST", linked="T2-Shell-1 escort"},  
+		-- {sort=5, name="T3-Texaco-1", description="Texaco-1 (KC-135 MPRS)", information="Tacan 60Y\nU290.10 (17)\nZone OUEST", linked="T3-Texaco-1 escort"},  
+		-- {sort=6, name="T4-Shell-2", description="Shell-2 (KC-135)", information="Tacan 63Y\nU290.40 (19)\nZone EST", linked="T4-Shell-2 escort"},  
+		-- {sort=6, name="T5-Petrolsky", description="900 (IL-78M, RED)", information="U267", linked="T5-Petrolsky escort"},  
+		-- {sort=7, name="CVN-74 Stennis S3B-Tanker", description="Texaco-7 (S3-B)", information="Tacan 75X\nU290.90\nZone PA"},  
+		-- {sort=7, name="CVN-71 Roosevelt S3B-Tanker", description="Texaco-8 (S3-B)", information="Tacan 76X\nU290.80\nZone PA"},  
+		-- {sort=8, name="Bizmuth", description="Colt-1 AFAC Bizmuth (MQ-9)", information="L1688 V118.80 (18)", jtac=1688, freq=118.80, mod="am"},
+		-- {sort=9, name="Agate", description="Dodge-1 AFAC Agate (MQ-9)", information="L1687 V118.90 (19)", jtac=1687, freq=118.90, mod="am"},  
+		-- {sort=10, name="A1-Magic", description="Magic (E-2D)", information="Datalink 315.3 Mhz\nU282.20 (13)", linked="A1-Magic escort"},  
+		-- {sort=11, name="A2-Overlordsky", description="Overlordsky (A-50, RED)", information="V112.12"},  
     }
 
     veaf.loggers.get(veaf.Id):info("init - veafAssets")
@@ -119,11 +119,11 @@ if veafCombatMission then
 		VeafCombatMission.new()
         :setSecured(false)
         :setRadioMenuEnabled(true)
-		:setName("Escort-Transport-Nalchik-to-Maykop")
-		:setFriendlyName("Escort Transport from Nalchik to Maykop")
+		:setName("RED-Escort-Transport-Nalchik-to-Maykop")
+		:setFriendlyName("Escort Transport from Nalchik to Maykop (for RED players)")
 		:setBriefing([[
-need description
-need description2
+Escort a Yak-40 from Nalchik to Maykop
+Divert granted to Sochi (when Transport reach Russia over Sochi)
 ]]
 )
 		:addElement(
@@ -161,6 +161,76 @@ need description2
 			:setName("Kill interceptors")
 			:setDescription("you must kill all interceptors")
 			:setMessage("%d interceptors destroyed !")
+			:configureAsKillEnemiesObjective()
+		)
+		:initialize()
+	)
+
+    veafCombatMission.AddMissionsWithSkillAndScale(
+		VeafCombatMission.new()
+		:setSecured(false)
+		:setRadioMenuEnabled(true)
+		:setName("RED-Intercept-Reco-Tbilisi-to-Gudauta")
+		:setFriendlyName("Intercept a RECON patrol between Tbilisi and Gudauta")
+		:setBriefing([[
+An F-4E recon flight is patroling between Tbilisi and Gudauta
+Destroy them.
+]]
+)
+		:addElement(
+			VeafCombatMissionElement.new()
+			:setName("RED-Intercept-Reco-Tbilisi-to-Gudauta-Patrol")
+            :setGroups({"Tbilisi-F4-ai-1"})
+            :setScalable(true)
+		)
+		:addObjective(
+			VeafCombatMissionObjective.new()
+			:setName("Destroy the patrol")
+			:setDescription("you must destroy the patrol")
+			:setMessage("%d transport planes destroyed !")
+			:configureAsKillEnemiesObjective()
+		)
+		:initialize()
+	)
+	
+	veafCombatMission.AddMission(
+		VeafCombatMission.new()
+        :setSecured(false)
+        :setRadioMenuEnabled(true)
+		:setName("RED-Intercept-Transport-Tbilisi-to-Gudauta")
+		:setFriendlyName("Intercept Transport from Tbilisi to Gudauta")
+		:setBriefing([[
+A C130 transport from Tbilisi is going to Gudauta
+Destroy this transport and its escort.
+Transporter estimated position on Bulls at mission start +8minutes
+BUG -- WIP
+]]
+)
+		:addElement(
+			VeafCombatMissionElement.new()
+			:setName("Tbilisi-C130-ai-1")
+			:setGroups({
+				"Tbilisi-C130-ai-1",
+				})
+			:setSkill("Random")
+            :setScalable(false)
+		)
+
+		:addElement(
+			VeafCombatMissionElement.new()
+			:setName("Tbilisi-C130-ai-1-Escort-1")
+			:setGroups({
+				"Tbilisi-C130-ai-1-Escort-1", 
+				})
+			:setSkill("Random")
+            :setScalable(false)
+		)
+
+		:addObjective(
+			VeafCombatMissionObjective.new()
+			:setName("Kill Transport and Escort")
+			:setDescription("you must kill the transporter and its escort")
+			:setMessage("%d aircrafts destroyed !")
 			:configureAsKillEnemiesObjective()
 		)
 		:initialize()
