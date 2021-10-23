@@ -166,6 +166,33 @@ Divert granted to Sochi (when Transport reach Russia over Sochi)
 		:initialize()
 	)
 
+    veafCombatMission.AddMissionsWithSkillAndScale(
+		VeafCombatMission.new()
+		:setSecured(false)
+		:setRadioMenuEnabled(true)
+		:setName("RED-Intercept-Reco-Tbilisi-to-Gudauta")
+		:setFriendlyName("Intercept a RECON patrol between Tbilisi and Gudauta")
+		:setBriefing([[
+An F-4E recon flight is patroling between Tbilisi and Gudauta
+Destroy them.
+]]
+)
+		:addElement(
+			VeafCombatMissionElement.new()
+			:setName("RED-Intercept-Reco-Tbilisi-to-Gudauta-Patrol")
+            :setGroups({"Tbilisi-F4-ai-1"})
+            :setScalable(true)
+		)
+		:addObjective(
+			VeafCombatMissionObjective.new()
+			:setName("Destroy the patrol")
+			:setDescription("you must destroy the patrol")
+			:setMessage("%d transport planes destroyed !")
+			:configureAsKillEnemiesObjective()
+		)
+		:initialize()
+	)
+	
 	veafCombatMission.AddMission(
 		VeafCombatMission.new()
         :setSecured(false)
@@ -176,11 +203,12 @@ Divert granted to Sochi (when Transport reach Russia over Sochi)
 A C130 transport from Tbilisi is going to Gudauta
 Destroy this transport and its escort.
 Transporter estimated position on Bulls at mission start +8minutes
+BUG -- WIP
 ]]
 )
 		:addElement(
 			VeafCombatMissionElement.new()
-			:setName("CAP")
+			:setName("Tbilisi-C130-ai-1")
 			:setGroups({
 				"Tbilisi-C130-ai-1",
 				})
@@ -190,7 +218,7 @@ Transporter estimated position on Bulls at mission start +8minutes
 
 		:addElement(
 			VeafCombatMissionElement.new()
-			:setName("CAP")
+			:setName("Tbilisi-C130-ai-1-Escort-1")
 			:setGroups({
 				"Tbilisi-C130-ai-1-Escort-1", 
 				})
