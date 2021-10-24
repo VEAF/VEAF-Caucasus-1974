@@ -1,5 +1,8 @@
+### 0.0.3
+
 * ADD RED-AI RED-Magic frequency
 * ADD MISSION split Escort Transport from Nalchik to Maykop into Easy + Medium
+* ADD SITUATION SOCHI add assets on airport
 * UPD SITUATION split blue & red freqplan
 * FIX RED-Intercept-Reco-Tbilisi-to-Gudauta (was not fighting)
 * FIX RED-AI MAGIC Escort RTB on first WP
@@ -9,7 +12,6 @@
 * ADD MISSION Intercept Transport from Tbilisi to Gudauta
 * ADD MISSION Intercept RECON Patrol from Tbilisi to Gudauta (on demand / scalable)
 * ADD SITUATION freqplan
-* ADD SITUATION SOCHI RED airport
 * ADD SITUATION GUDAUTA BLUE airport
 * ADD RED-AI RED-Magic-Escort (2x MiG-23)
 * ADD BLUE-AI BLUE-Magic-Escort (2x F-23)
