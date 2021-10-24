@@ -1,4 +1,5 @@
 * ADD RED-AI RED-Magic frequency
+* ADD MISSION split Escort Transport from Nalchik to Maykop into Easy + Medium
 * UPD SITUATION split blue & red freqplan
 * FIX RED-Intercept-Reco-Tbilisi-to-Gudauta (was not fighting)
 * FIX RED-AI MAGIC Escort RTB on first WP
