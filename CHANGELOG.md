@@ -1,3 +1,8 @@
+* ADD RED-AI RED-Magic frequency
+* UPD SITUATION split blue & red freqplan
+* FIX RED-Intercept-Reco-Tbilisi-to-Gudauta (was not fighting)
+* FIX RED-AI MAGIC Escort RTB on first WP
+
 ### 0.0.2
 
 * ADD MISSION Intercept Transport from Tbilisi to Gudauta
