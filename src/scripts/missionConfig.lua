@@ -119,28 +119,20 @@ if veafCombatMission then
 		VeafCombatMission.new()
         :setSecured(false)
         :setRadioMenuEnabled(true)
-		:setName("RED-Escort-Transport-Nalchik-to-Maykop")
-		:setFriendlyName("Escort Transport from Nalchik to Maykop (for RED players)")
+		:setName("RED-Escort-Transport-Nalchik-to-Maykop-1")
+		:setFriendlyName("Escort Nalchik-Maykop RED Easy")
 		:setBriefing([[
 Escort a Yak-40 from Nalchik to Maykop
 Divert granted to Sochi (when Transport reach Russia over Sochi)
+Easy 2x 2xF86-F
 ]]
 )
 		:addElement(
 			VeafCombatMissionElement.new()
 			:setName("CAP")
 			:setGroups({
-				"Kutaisi-F5-ia-1",
-				})
-			:setSkill("Random")
-            :setScalable(false)
-		)
-
-		:addElement(
-			VeafCombatMissionElement.new()
-			:setName("CAP")
-			:setGroups({
 				"Kutaisi-F86-ia-1", 
+				"Kutaisi-F86-ia-2", 
 				})
 			:setSkill("Random")
             :setScalable(false)
@@ -151,6 +143,49 @@ Divert granted to Sochi (when Transport reach Russia over Sochi)
 			:setName("Transport")
 			:setGroups({
 				"Nalchik-Transport-Krymsk-1", 
+				})
+			:setSkill("Random")
+            :setScalable(false)
+		)
+		
+		:addObjective(
+			VeafCombatMissionObjective.new()
+			:setName("Kill interceptors")
+			:setDescription("you must kill all interceptors")
+			:setMessage("%d interceptors destroyed !")
+			:configureAsKillEnemiesObjective()
+		)
+		:initialize()
+	)
+
+	veafCombatMission.AddMission(
+		VeafCombatMission.new()
+        :setSecured(false)
+        :setRadioMenuEnabled(true)
+		:setName("RED-Escort-Transport-Nalchik-to-Maykop-2")
+		:setFriendlyName("Escort Nalchik-Maykop RED Medium")
+		:setBriefing([[
+Escort a Yak-40 from Nalchik to Maykop
+Divert granted to Sochi (when Transport reach Russia over Sochi)
+Medium 2x 2xF5-E
+]]
+)
+		:addElement(
+			VeafCombatMissionElement.new()
+			:setName("CAP")
+			:setGroups({
+				"Kutaisi-F5-ia-1",
+				"Kutaisi-F5-ia-2",
+				})
+			:setSkill("Random")
+            :setScalable(false)
+		)
+
+		:addElement(
+			VeafCombatMissionElement.new()
+			:setName("Transport")
+			:setGroups({
+				"Nalchik-Transport-Krymsk-2", 
 				})
 			:setSkill("Random")
             :setScalable(false)
