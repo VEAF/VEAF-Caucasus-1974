@@ -7,13 +7,13 @@
 radioPresets =
 {
     -- radio 1 : left radio, red radio, UHF radio
-    ["##RADIO1_01##"] = 243.000, -- GUARD
+    ["##RADIO1_01##"] = 264.000, -- MINEVODY
     ["##RADIO1_02##"] = 265.000, -- NALCHIK
     ["##RADIO1_03##"] = 254.000, -- MAYKOP
-    ["##RADIO1_04##"] = 250.000, -- ANAPA
+    ["##RADIO1_04##"] = 266.000, -- MOZDOK
     ["##RADIO1_05##"] = 253.000, -- KRYMSK
     ["##RADIO1_06##"] = 256.000, -- SOCHI
-    ["##RADIO1_07##"] = 258.000,
+    ["##RADIO1_07##"] = 250.000, -- ANAPA
     ["##RADIO1_08##"] = 267.000,
     ["##RADIO1_09##"] = 269.000,
     ["##RADIO1_10##"] = 251.000, -- MAGIC
