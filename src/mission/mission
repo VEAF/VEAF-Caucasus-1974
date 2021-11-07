@@ -357,7 +357,7 @@ mission = {
                             [2] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
-                                ["groupId"] = 750,
+                                ["groupId"] = 818,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -401,7 +401,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
                                                                     ["params"] = {
-                                                                        ["groupId"] = 749,
+                                                                        ["groupId"] = 817,
                                                                         ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
@@ -478,7 +478,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-16C_50",
-                                        ["unitId"] = 1208,
+                                        ["unitId"] = 1299,
                                         ["x"] = -347714.28571429,
                                         ["y"] = 522857.14285714,
                                     }, -- end of [1]
@@ -537,7 +537,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-16C_50",
-                                        ["unitId"] = 1209,
+                                        ["unitId"] = 1300,
                                         ["x"] = -347754.28571429,
                                         ["y"] = 522897.14285714,
                                     }, -- end of [2]
@@ -548,7 +548,7 @@ mission = {
                             [3] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
-                                ["groupId"] = 751,
+                                ["groupId"] = 819,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -644,7 +644,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-14A-135-GR",
-                                        ["unitId"] = 1210,
+                                        ["unitId"] = 1301,
                                         ["x"] = -297142.85714286,
                                         ["y"] = 524571.42857143,
                                     }, -- end of [1]
@@ -706,7 +706,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-14A-135-GR",
-                                        ["unitId"] = 1211,
+                                        ["unitId"] = 1302,
                                         ["x"] = -297182.85714286,
                                         ["y"] = 524611.42857143,
                                     }, -- end of [2]
@@ -717,7 +717,7 @@ mission = {
                             [4] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
-                                ["groupId"] = 752,
+                                ["groupId"] = 820,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -813,7 +813,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-14A-135-GR",
-                                        ["unitId"] = 1212,
+                                        ["unitId"] = 1303,
                                         ["x"] = -285428.57142857,
                                         ["y"] = 523714.28571429,
                                     }, -- end of [1]
@@ -875,7 +875,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-14A-135-GR",
-                                        ["unitId"] = 1213,
+                                        ["unitId"] = 1304,
                                         ["x"] = -285468.57142857,
                                         ["y"] = 523754.28571429,
                                     }, -- end of [2]
@@ -886,7 +886,7 @@ mission = {
                             [5] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
-                                ["groupId"] = 753,
+                                ["groupId"] = 821,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -982,7 +982,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-14B",
-                                        ["unitId"] = 1214,
+                                        ["unitId"] = 1305,
                                         ["x"] = -319714.28571429,
                                         ["y"] = 523428.57142857,
                                     }, -- end of [1]
@@ -1044,7 +1044,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-14B",
-                                        ["unitId"] = 1215,
+                                        ["unitId"] = 1306,
                                         ["x"] = -319754.28571429,
                                         ["y"] = 523468.57142857,
                                     }, -- end of [2]
@@ -1055,7 +1055,7 @@ mission = {
                             [6] = {
                                 ["communication"] = true,
                                 ["frequency"] = 251,
-                                ["groupId"] = 754,
+                                ["groupId"] = 822,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -1154,7 +1154,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 256.94444444444,
                                         ["type"] = "F-4E",
-                                        ["unitId"] = 1216,
+                                        ["unitId"] = 1307,
                                         ["x"] = -357714.28571429,
                                         ["y"] = 524285.71428571,
                                     }, -- end of [1]
@@ -1206,7 +1206,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 256.94444444444,
                                         ["type"] = "F-4E",
-                                        ["unitId"] = 1217,
+                                        ["unitId"] = 1308,
                                         ["x"] = -357754.28571429,
                                         ["y"] = 524325.71428571,
                                     }, -- end of [2]
@@ -1217,7 +1217,7 @@ mission = {
                             [7] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
-                                ["groupId"] = 755,
+                                ["groupId"] = 823,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -1311,7 +1311,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 174.72222222222,
                                         ["type"] = "F-5E-3",
-                                        ["unitId"] = 1218,
+                                        ["unitId"] = 1309,
                                         ["x"] = -367714.28571429,
                                         ["y"] = 523142.85714286,
                                     }, -- end of [1]
@@ -1358,7 +1358,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 174.72222222222,
                                         ["type"] = "F-5E-3",
-                                        ["unitId"] = 1219,
+                                        ["unitId"] = 1310,
                                         ["x"] = -367754.28571429,
                                         ["y"] = 523182.85714286,
                                     }, -- end of [2]
@@ -1369,7 +1369,7 @@ mission = {
                             [8] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
-                                ["groupId"] = 757,
+                                ["groupId"] = 825,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -1413,7 +1413,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
                                                                     ["params"] = {
-                                                                        ["groupId"] = 756,
+                                                                        ["groupId"] = 824,
                                                                         ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
@@ -1493,7 +1493,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-15C",
-                                        ["unitId"] = 1220,
+                                        ["unitId"] = 1311,
                                         ["x"] = -330571.42857143,
                                         ["y"] = 524000,
                                     }, -- end of [1]
@@ -1555,7 +1555,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-15C",
-                                        ["unitId"] = 1221,
+                                        ["unitId"] = 1312,
                                         ["x"] = -330611.42857143,
                                         ["y"] = 524040,
                                     }, -- end of [2]
@@ -1566,7 +1566,7 @@ mission = {
                             [9] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
-                                ["groupId"] = 759,
+                                ["groupId"] = 827,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -1610,7 +1610,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
                                                                     ["params"] = {
-                                                                        ["groupId"] = 758,
+                                                                        ["groupId"] = 826,
                                                                         ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
@@ -1709,7 +1709,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 179.86111111111,
                                         ["type"] = "FA-18C_hornet",
-                                        ["unitId"] = 1222,
+                                        ["unitId"] = 1313,
                                         ["x"] = -378000,
                                         ["y"] = 521428.57142857,
                                     }, -- end of [1]
@@ -1768,7 +1768,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 179.86111111111,
                                         ["type"] = "FA-18C_hornet",
-                                        ["unitId"] = 1223,
+                                        ["unitId"] = 1314,
                                         ["x"] = -378040,
                                         ["y"] = 521468.57142857,
                                     }, -- end of [2]
@@ -1779,7 +1779,7 @@ mission = {
                             [10] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
-                                ["groupId"] = 760,
+                                ["groupId"] = 828,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -1875,7 +1875,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-14B",
-                                        ["unitId"] = 1224,
+                                        ["unitId"] = 1315,
                                         ["x"] = -308857.14285714,
                                         ["y"] = 523428.57142857,
                                     }, -- end of [1]
@@ -1937,7 +1937,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-14B",
-                                        ["unitId"] = 1225,
+                                        ["unitId"] = 1316,
                                         ["x"] = -308897.14285714,
                                         ["y"] = 523468.57142857,
                                     }, -- end of [2]
@@ -1948,7 +1948,7 @@ mission = {
                             [11] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
-                                ["groupId"] = 762,
+                                ["groupId"] = 830,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -1992,7 +1992,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
                                                                     ["params"] = {
-                                                                        ["groupId"] = 761,
+                                                                        ["groupId"] = 829,
                                                                         ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
@@ -2072,7 +2072,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-15C",
-                                        ["unitId"] = 1226,
+                                        ["unitId"] = 1317,
                                         ["x"] = -338285.71428571,
                                         ["y"] = 524285.71428571,
                                     }, -- end of [1]
@@ -2134,7 +2134,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "F-15C",
-                                        ["unitId"] = 1227,
+                                        ["unitId"] = 1318,
                                         ["x"] = -338325.71428571,
                                         ["y"] = 524325.71428571,
                                     }, -- end of [2]
@@ -2145,7 +2145,7 @@ mission = {
                             [12] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
-                                ["groupId"] = 764,
+                                ["groupId"] = 832,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -2189,7 +2189,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
                                                                     ["params"] = {
-                                                                        ["groupId"] = 763,
+                                                                        ["groupId"] = 831,
                                                                         ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
@@ -2266,7 +2266,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 179.86111111111,
                                         ["type"] = "FA-18C_hornet",
-                                        ["unitId"] = 1228,
+                                        ["unitId"] = 1319,
                                         ["x"] = -398857.14285714,
                                         ["y"] = 520857.14285714,
                                     }, -- end of [1]
@@ -2325,7 +2325,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 179.86111111111,
                                         ["type"] = "FA-18C_hornet",
-                                        ["unitId"] = 1229,
+                                        ["unitId"] = 1320,
                                         ["x"] = -398897.14285714,
                                         ["y"] = 520897.14285714,
                                     }, -- end of [2]
@@ -2336,7 +2336,7 @@ mission = {
                             [13] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
-                                ["groupId"] = 766,
+                                ["groupId"] = 834,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -2380,7 +2380,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
                                                                     ["params"] = {
-                                                                        ["groupId"] = 765,
+                                                                        ["groupId"] = 833,
                                                                         ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
@@ -2451,7 +2451,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 179.86111111111,
                                         ["type"] = "FA-18C_hornet",
-                                        ["unitId"] = 1230,
+                                        ["unitId"] = 1321,
                                         ["x"] = -388285.71428571,
                                         ["y"] = 520857.14285714,
                                     }, -- end of [1]
@@ -2504,7 +2504,7 @@ mission = {
                                         ["skill"] = "High",
                                         ["speed"] = 179.86111111111,
                                         ["type"] = "FA-18C_hornet",
-                                        ["unitId"] = 1231,
+                                        ["unitId"] = 1322,
                                         ["x"] = -388325.71428571,
                                         ["y"] = 520897.14285714,
                                     }, -- end of [2]
@@ -7398,6 +7398,115 @@ mission = {
                                                 ["id"] = "ComboTask",
                                                 ["params"] = {
                                                     ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 1,
+                                                                        ["value"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 3,
+                                                                        ["value"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["formationIndex"] = 2,
+                                                                        ["name"] = 5,
+                                                                        ["value"] = 131074,
+                                                                        ["variantIndex"] = 2,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 15,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 21,
+                                                                        ["noTargetTypes"] = {
+                                                                            [1] = "Fighters",
+                                                                            [2] = "Multirole fighters",
+                                                                            [3] = "Bombers",
+                                                                            [4] = "Helicopters",
+                                                                            [5] = "Infantry",
+                                                                            [6] = "Fortifications",
+                                                                            [7] = "Tanks",
+                                                                            [8] = "IFV",
+                                                                            [9] = "APC",
+                                                                            [10] = "Artillery",
+                                                                            [11] = "Unarmed vehicles",
+                                                                            [12] = "AAA",
+                                                                            [13] = "SR SAM",
+                                                                            [14] = "MR SAM",
+                                                                            [15] = "LR SAM",
+                                                                            [16] = "Aircraft Carriers",
+                                                                            [17] = "Cruisers",
+                                                                            [18] = "Destroyers",
+                                                                            [19] = "Frigates",
+                                                                            [20] = "Corvettes",
+                                                                            [21] = "Light armed ships",
+                                                                            [22] = "Unarmed ships",
+                                                                            [23] = "Submarines",
+                                                                            [24] = "Cruise missiles",
+                                                                            [25] = "Antiship Missiles",
+                                                                            [26] = "AA Missiles",
+                                                                            [27] = "AG Missiles",
+                                                                            [28] = "SA Missiles",
+                                                                        }, -- end of ["noTargetTypes"]
+                                                                        ["targetTypes"] = {
+                                                                        }, -- end of ["targetTypes"]
+                                                                        ["value"] = "none;",
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -7409,10 +7518,10 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 482.32210753166,
+                                            ["ETA"] = 355.39523712861,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["speed"] = 143.88888888889,
+                                            ["speed"] = 195.27777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -7429,10 +7538,10 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 2226.9748871164,
+                                            ["ETA"] = 1640.9288641911,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["speed"] = 143.88888888889,
+                                            ["speed"] = 195.27777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -7449,10 +7558,10 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 3620.252418979,
+                                            ["ETA"] = 2667.5544139846,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["speed"] = 143.88888888889,
+                                            ["speed"] = 195.27777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -7470,10 +7579,10 @@ mission = {
                                             ["airdromeId"] = 15,
                                             ["alt"] = 20,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 3926.5734351575,
+                                            ["ETA"] = 2893.2646364318,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["speed"] = 143.88888888889,
+                                            ["speed"] = 195.27777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -7490,7 +7599,7 @@ mission = {
                                     ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "Transport",
+                                ["task"] = "Ground Attack",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
                                 ["uncontrolled"] = false,
@@ -7498,25 +7607,35 @@ mission = {
                                     [1] = {
                                         ["alt"] = 430,
                                         ["alt_type"] = "BARO",
-                                        ["callsign"] = 110,
+                                        ["callsign"] = 117,
+                                        ["hardpoint_racks"] = true,
                                         ["heading"] = -2.4155760689379,
-                                        ["livery_id"] = "Aeroflot",
+                                        ["livery_id"] = "af standard",
                                         ["name"] = "Aerial-1-3",
                                         ["onboard_num"] = "020",
                                         ["parking"] = "14",
                                         ["parking_id"] = "01",
                                         ["payload"] = {
-                                            ["chaff"] = 0,
-                                            ["flare"] = 0,
-                                            ["fuel"] = "3080",
+                                            ["chaff"] = 96,
+                                            ["flare"] = 96,
+                                            ["fuel"] = "11700",
                                             ["gun"] = 100,
                                             ["pylons"] = {
+                                                [2] = {
+                                                    ["CLSID"] = "{7D7EC917-05F6-49D4-8045-61FC587DD019}",
+                                                }, -- end of [2]
+                                                [5] = {
+                                                    ["CLSID"] = "{16602053-4A12-40A2-B214-AB60D481B20E}",
+                                                }, -- end of [5]
+                                                [7] = {
+                                                    ["CLSID"] = "{7D7EC917-05F6-49D4-8045-61FC587DD019}",
+                                                }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 2.4155760689379,
+                                        ["psi"] = 2.4155760689378,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "Yak-40",
+                                        ["type"] = "Su-24M",
                                         ["unitId"] = 12,
                                         ["x"] = -125170.03799055,
                                         ["y"] = 760824.44174914,
@@ -7573,9 +7692,9 @@ mission = {
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 6096,
+                                            ["alt"] = 4000,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 665.43888266897,
+                                            ["ETA"] = 642.31552381177,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["speed"] = 143.88888888889,
@@ -7593,9 +7712,9 @@ mission = {
                                         }, -- end of [2]
                                         [3] = {
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 6096,
+                                            ["alt"] = 4000,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 2450.4815758552,
+                                            ["ETA"] = 2365.3297064239,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["speed"] = 143.88888888889,
@@ -7613,9 +7732,9 @@ mission = {
                                         }, -- end of [3]
                                         [4] = {
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 6096,
+                                            ["alt"] = 4000,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 3614.6433103427,
+                                            ["ETA"] = 3489.0379443462,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["speed"] = 143.88888888889,
@@ -7636,7 +7755,7 @@ mission = {
                                             ["airdromeId"] = 12,
                                             ["alt"] = 43,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 4130.0401224487,
+                                            ["ETA"] = 3986.5252147188,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["speed"] = 143.88888888889,
@@ -7664,9 +7783,10 @@ mission = {
                                     [1] = {
                                         ["alt"] = 430,
                                         ["alt_type"] = "BARO",
-                                        ["callsign"] = 113,
+                                        ["callsign"] = 119,
+                                        ["hardpoint_racks"] = true,
                                         ["heading"] = -0.64254335793568,
-                                        ["livery_id"] = "Aeroflot",
+                                        ["livery_id"] = "aeroflot",
                                         ["name"] = "Aerial-1-3-1",
                                         ["onboard_num"] = "021",
                                         ["parking"] = "11",
@@ -7679,7 +7799,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 0.64254335793568,
+                                        ["psi"] = 0.64254335793571,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "Yak-40",
@@ -7842,7 +7962,7 @@ mission = {
                             [7] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
-                                ["groupId"] = 767,
+                                ["groupId"] = 835,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -7918,7 +8038,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 1232,
+                                        ["unitId"] = 1323,
                                         ["x"] = 31684.704947593,
                                         ["y"] = -8458.7521921596,
                                     }, -- end of [1]
@@ -7959,7 +8079,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 1233,
+                                        ["unitId"] = 1324,
                                         ["x"] = 31644.704947593,
                                         ["y"] = -8418.7521921596,
                                     }, -- end of [2]
@@ -7970,7 +8090,7 @@ mission = {
                             [8] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
-                                ["groupId"] = 768,
+                                ["groupId"] = 836,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -8066,7 +8186,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 169.58333333333,
                                         ["type"] = "Su-33",
-                                        ["unitId"] = 1234,
+                                        ["unitId"] = 1325,
                                         ["x"] = 25206.641180688,
                                         ["y"] = -8412.4803081103,
                                     }, -- end of [1]
@@ -8127,7 +8247,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 169.58333333333,
                                         ["type"] = "Su-33",
-                                        ["unitId"] = 1235,
+                                        ["unitId"] = 1326,
                                         ["x"] = 25166.641180688,
                                         ["y"] = -8372.4803081103,
                                     }, -- end of [2]
@@ -8138,7 +8258,7 @@ mission = {
                             [9] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
-                                ["groupId"] = 769,
+                                ["groupId"] = 837,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -8216,7 +8336,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 169.58333333333,
                                         ["type"] = "Su-33",
-                                        ["unitId"] = 1236,
+                                        ["unitId"] = 1327,
                                         ["x"] = 22152.696833432,
                                         ["y"] = -8273.6646559623,
                                     }, -- end of [1]
@@ -8258,7 +8378,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 169.58333333333,
                                         ["type"] = "Su-33",
-                                        ["unitId"] = 1237,
+                                        ["unitId"] = 1328,
                                         ["x"] = 22112.696833432,
                                         ["y"] = -8233.6646559623,
                                     }, -- end of [2]
@@ -8269,7 +8389,7 @@ mission = {
                             [10] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
-                                ["groupId"] = 770,
+                                ["groupId"] = 838,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -8363,7 +8483,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29S",
-                                        ["unitId"] = 1238,
+                                        ["unitId"] = 1329,
                                         ["x"] = 8132.3159664879,
                                         ["y"] = -7903.4895835678,
                                     }, -- end of [1]
@@ -8408,7 +8528,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29S",
-                                        ["unitId"] = 1239,
+                                        ["unitId"] = 1330,
                                         ["x"] = 8092.3159664879,
                                         ["y"] = -7863.4895835678,
                                     }, -- end of [2]
@@ -8419,7 +8539,7 @@ mission = {
                             [11] = {
                                 ["communication"] = false,
                                 ["frequency"] = 251,
-                                ["groupId"] = 771,
+                                ["groupId"] = 839,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -8510,7 +8630,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 277.5,
                                         ["type"] = "MiG-31",
-                                        ["unitId"] = 1240,
+                                        ["unitId"] = 1331,
                                         ["x"] = -12359.10944732,
                                         ["y"] = -7450.9250942353,
                                     }, -- end of [1]
@@ -8552,7 +8672,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 277.5,
                                         ["type"] = "MiG-31",
-                                        ["unitId"] = 1241,
+                                        ["unitId"] = 1332,
                                         ["x"] = -12399.10944732,
                                         ["y"] = -7410.9250942353,
                                     }, -- end of [2]
@@ -8563,7 +8683,7 @@ mission = {
                             [12] = {
                                 ["communication"] = false,
                                 ["frequency"] = 243,
-                                ["groupId"] = 773,
+                                ["groupId"] = 841,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -8607,7 +8727,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
                                                                     ["params"] = {
-                                                                        ["groupId"] = 772,
+                                                                        ["groupId"] = 840,
                                                                         ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
@@ -8662,7 +8782,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "JF-17",
-                                        ["unitId"] = 1242,
+                                        ["unitId"] = 1333,
                                         ["x"] = -15752.299691857,
                                         ["y"] = -7272.2841548691,
                                     }, -- end of [1]
@@ -8697,7 +8817,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "JF-17",
-                                        ["unitId"] = 1243,
+                                        ["unitId"] = 1334,
                                         ["x"] = -15792.299691857,
                                         ["y"] = -7232.2841548691,
                                     }, -- end of [2]
@@ -8708,7 +8828,7 @@ mission = {
                             [13] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
-                                ["groupId"] = 774,
+                                ["groupId"] = 842,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -8802,7 +8922,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29S",
-                                        ["unitId"] = 1244,
+                                        ["unitId"] = 1335,
                                         ["x"] = 5402.2748075779,
                                         ["y"] = -7857.2176995184,
                                     }, -- end of [1]
@@ -8847,7 +8967,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29S",
-                                        ["unitId"] = 1245,
+                                        ["unitId"] = 1336,
                                         ["x"] = 5362.2748075779,
                                         ["y"] = -7817.2176995184,
                                     }, -- end of [2]
@@ -8858,7 +8978,7 @@ mission = {
                             [14] = {
                                 ["communication"] = false,
                                 ["frequency"] = 243,
-                                ["groupId"] = 776,
+                                ["groupId"] = 844,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -8902,7 +9022,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
                                                                     ["params"] = {
-                                                                        ["groupId"] = 775,
+                                                                        ["groupId"] = 843,
                                                                         ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
@@ -8969,7 +9089,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "JF-17",
-                                        ["unitId"] = 1246,
+                                        ["unitId"] = 1337,
                                         ["x"] = -19069.923022895,
                                         ["y"] = -7272.2841548691,
                                     }, -- end of [1]
@@ -9016,7 +9136,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "JF-17",
-                                        ["unitId"] = 1247,
+                                        ["unitId"] = 1338,
                                         ["x"] = -19109.923022895,
                                         ["y"] = -7232.2841548691,
                                     }, -- end of [2]
@@ -9027,7 +9147,7 @@ mission = {
                             [15] = {
                                 ["communication"] = false,
                                 ["frequency"] = 127.5,
-                                ["groupId"] = 777,
+                                ["groupId"] = 845,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -9105,7 +9225,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 253.75313988205,
                                         ["type"] = "Su-27",
-                                        ["unitId"] = 1248,
+                                        ["unitId"] = 1339,
                                         ["x"] = 15952.264370823,
                                         ["y"] = -8134.8490038144,
                                     }, -- end of [1]
@@ -9147,7 +9267,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 253.75313988205,
                                         ["type"] = "Su-27",
-                                        ["unitId"] = 1249,
+                                        ["unitId"] = 1340,
                                         ["x"] = 15912.264370823,
                                         ["y"] = -8094.8490038144,
                                     }, -- end of [2]
@@ -9158,7 +9278,7 @@ mission = {
                             [16] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
-                                ["groupId"] = 778,
+                                ["groupId"] = 846,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -9252,7 +9372,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29S",
-                                        ["unitId"] = 1250,
+                                        ["unitId"] = 1341,
                                         ["x"] = 2348.3304603227,
                                         ["y"] = -7857.2176995184,
                                     }, -- end of [1]
@@ -9297,7 +9417,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29S",
-                                        ["unitId"] = 1251,
+                                        ["unitId"] = 1342,
                                         ["x"] = 2308.3304603227,
                                         ["y"] = -7817.2176995184,
                                     }, -- end of [2]
@@ -9308,7 +9428,7 @@ mission = {
                             [17] = {
                                 ["communication"] = false,
                                 ["frequency"] = 251,
-                                ["groupId"] = 779,
+                                ["groupId"] = 847,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -9396,7 +9516,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 210.69444444444,
                                         ["type"] = "MiG-23MLD",
-                                        ["unitId"] = 1252,
+                                        ["unitId"] = 1343,
                                         ["x"] = -316.13151061829,
                                         ["y"] = -7847.0756842584,
                                     }, -- end of [1]
@@ -9435,7 +9555,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 210.69444444444,
                                         ["type"] = "MiG-23MLD",
-                                        ["unitId"] = 1253,
+                                        ["unitId"] = 1344,
                                         ["x"] = -356.13151061829,
                                         ["y"] = -7807.0756842584,
                                     }, -- end of [2]
@@ -9446,7 +9566,7 @@ mission = {
                             [18] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
-                                ["groupId"] = 780,
+                                ["groupId"] = 848,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -9519,7 +9639,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 1254,
+                                        ["unitId"] = 1345,
                                         ["x"] = 28445.67306414,
                                         ["y"] = -8458.7521921596,
                                     }, -- end of [1]
@@ -9556,7 +9676,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 1255,
+                                        ["unitId"] = 1346,
                                         ["x"] = 28405.67306414,
                                         ["y"] = -8418.7521921596,
                                     }, -- end of [2]
@@ -9567,7 +9687,7 @@ mission = {
                             [19] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
-                                ["groupId"] = 781,
+                                ["groupId"] = 849,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -9661,7 +9781,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29A",
-                                        ["unitId"] = 1256,
+                                        ["unitId"] = 1347,
                                         ["x"] = 10769.813357299,
                                         ["y"] = -7903.4895835678,
                                     }, -- end of [1]
@@ -9707,7 +9827,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29A",
-                                        ["unitId"] = 1257,
+                                        ["unitId"] = 1348,
                                         ["x"] = 10729.813357299,
                                         ["y"] = -7863.4895835678,
                                     }, -- end of [2]
@@ -9718,7 +9838,7 @@ mission = {
                             [20] = {
                                 ["communication"] = false,
                                 ["frequency"] = 251,
-                                ["groupId"] = 782,
+                                ["groupId"] = 850,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -9806,7 +9926,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 210.69444444444,
                                         ["type"] = "MiG-23MLD",
-                                        ["unitId"] = 1258,
+                                        ["unitId"] = 1349,
                                         ["x"] = -2811.8802277638,
                                         ["y"] = -7767.8455662538,
                                     }, -- end of [1]
@@ -9845,7 +9965,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 210.69444444444,
                                         ["type"] = "MiG-23MLD",
-                                        ["unitId"] = 1259,
+                                        ["unitId"] = 1350,
                                         ["x"] = -2851.8802277638,
                                         ["y"] = -7727.8455662538,
                                     }, -- end of [2]
@@ -9856,7 +9976,7 @@ mission = {
                             [21] = {
                                 ["communication"] = false,
                                 ["frequency"] = 251,
-                                ["groupId"] = 783,
+                                ["groupId"] = 851,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -9941,7 +10061,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 277.5,
                                         ["type"] = "MiG-25PD",
-                                        ["unitId"] = 1260,
+                                        ["unitId"] = 1351,
                                         ["x"] = -5069.9385908954,
                                         ["y"] = -7609.3853302445,
                                     }, -- end of [1]
@@ -9977,7 +10097,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 277.5,
                                         ["type"] = "MiG-25PD",
-                                        ["unitId"] = 1261,
+                                        ["unitId"] = 1352,
                                         ["x"] = -5109.9385908954,
                                         ["y"] = -7569.3853302445,
                                     }, -- end of [2]
@@ -9988,7 +10108,7 @@ mission = {
                             [22] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
-                                ["groupId"] = 784,
+                                ["groupId"] = 852,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -10082,7 +10202,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29A",
-                                        ["unitId"] = 1262,
+                                        ["unitId"] = 1353,
                                         ["x"] = 13499.854516209,
                                         ["y"] = -8042.3052357157,
                                     }, -- end of [1]
@@ -10127,7 +10247,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 220.97222222222,
                                         ["type"] = "MiG-29A",
-                                        ["unitId"] = 1263,
+                                        ["unitId"] = 1354,
                                         ["x"] = 13459.854516209,
                                         ["y"] = -8002.3052357157,
                                     }, -- end of [2]
@@ -10138,7 +10258,7 @@ mission = {
                             [23] = {
                                 ["communication"] = false,
                                 ["frequency"] = 251,
-                                ["groupId"] = 785,
+                                ["groupId"] = 853,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -10223,7 +10343,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 277.5,
                                         ["type"] = "MiG-25PD",
-                                        ["unitId"] = 1264,
+                                        ["unitId"] = 1355,
                                         ["x"] = -7209.1517770201,
                                         ["y"] = -7649.0003892469,
                                     }, -- end of [1]
@@ -10259,7 +10379,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 277.5,
                                         ["type"] = "MiG-25PD",
-                                        ["unitId"] = 1265,
+                                        ["unitId"] = 1356,
                                         ["x"] = -7249.1517770201,
                                         ["y"] = -7609.0003892469,
                                     }, -- end of [2]
@@ -10270,7 +10390,7 @@ mission = {
                             [24] = {
                                 ["communication"] = false,
                                 ["frequency"] = 127.5,
-                                ["groupId"] = 786,
+                                ["groupId"] = 854,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -10360,7 +10480,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 253.75313988205,
                                         ["type"] = "Su-27",
-                                        ["unitId"] = 1266,
+                                        ["unitId"] = 1357,
                                         ["x"] = 18867.39306593,
                                         ["y"] = -8227.392771913,
                                     }, -- end of [1]
@@ -10414,7 +10534,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 253.75313988205,
                                         ["type"] = "Su-27",
-                                        ["unitId"] = 1267,
+                                        ["unitId"] = 1358,
                                         ["x"] = 18827.39306593,
                                         ["y"] = -8187.392771913,
                                     }, -- end of [2]
@@ -10425,7 +10545,7 @@ mission = {
                             [25] = {
                                 ["communication"] = false,
                                 ["frequency"] = 251,
-                                ["groupId"] = 787,
+                                ["groupId"] = 855,
                                 ["hidden"] = true,
                                 ["lateActivation"] = true,
                                 ["modulation"] = 0,
@@ -10504,7 +10624,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 277.5,
                                         ["type"] = "MiG-31",
-                                        ["unitId"] = 1268,
+                                        ["unitId"] = 1359,
                                         ["x"] = -9744.5155531678,
                                         ["y"] = -7490.5401532376,
                                     }, -- end of [1]
@@ -10535,7 +10655,7 @@ mission = {
                                         ["skill"] = "Excellent",
                                         ["speed"] = 277.5,
                                         ["type"] = "MiG-31",
-                                        ["unitId"] = 1269,
+                                        ["unitId"] = 1360,
                                         ["x"] = -9784.5155531678,
                                         ["y"] = -7450.5401532376,
                                     }, -- end of [2]
@@ -11233,6 +11353,115 @@ mission = {
                                                 ["id"] = "ComboTask",
                                                 ["params"] = {
                                                     ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 1,
+                                                                        ["value"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 3,
+                                                                        ["value"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["formationIndex"] = 2,
+                                                                        ["name"] = 5,
+                                                                        ["value"] = 131074,
+                                                                        ["variantIndex"] = 2,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 15,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 21,
+                                                                        ["noTargetTypes"] = {
+                                                                            [1] = "Fighters",
+                                                                            [2] = "Multirole fighters",
+                                                                            [3] = "Bombers",
+                                                                            [4] = "Helicopters",
+                                                                            [5] = "Infantry",
+                                                                            [6] = "Fortifications",
+                                                                            [7] = "Tanks",
+                                                                            [8] = "IFV",
+                                                                            [9] = "APC",
+                                                                            [10] = "Artillery",
+                                                                            [11] = "Unarmed vehicles",
+                                                                            [12] = "AAA",
+                                                                            [13] = "SR SAM",
+                                                                            [14] = "MR SAM",
+                                                                            [15] = "LR SAM",
+                                                                            [16] = "Aircraft Carriers",
+                                                                            [17] = "Cruisers",
+                                                                            [18] = "Destroyers",
+                                                                            [19] = "Frigates",
+                                                                            [20] = "Corvettes",
+                                                                            [21] = "Light armed ships",
+                                                                            [22] = "Unarmed ships",
+                                                                            [23] = "Submarines",
+                                                                            [24] = "Cruise missiles",
+                                                                            [25] = "Antiship Missiles",
+                                                                            [26] = "AA Missiles",
+                                                                            [27] = "AG Missiles",
+                                                                            [28] = "SA Missiles",
+                                                                        }, -- end of ["noTargetTypes"]
+                                                                        ["targetTypes"] = {
+                                                                        }, -- end of ["targetTypes"]
+                                                                        ["value"] = "none;",
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -11244,10 +11473,10 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 482.32210753166,
+                                            ["ETA"] = 354.50851775392,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["speed"] = 143.88888888889,
+                                            ["speed"] = 195.27777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -11264,10 +11493,10 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 2226.9748871164,
+                                            ["ETA"] = 1640.0421448164,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["speed"] = 143.88888888889,
+                                            ["speed"] = 195.27777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -11284,10 +11513,10 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 6096,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 3620.252418979,
+                                            ["ETA"] = 2666.6676946099,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["speed"] = 143.88888888889,
+                                            ["speed"] = 195.27777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -11305,10 +11534,10 @@ mission = {
                                             ["airdromeId"] = 15,
                                             ["alt"] = 20,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 3926.5734351575,
+                                            ["ETA"] = 2892.3784007994,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["speed"] = 138.88888888889,
+                                            ["speed"] = 195.27777777778,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -11325,7 +11554,7 @@ mission = {
                                     ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "Transport",
+                                ["task"] = "Ground Attack",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
                                 ["uncontrolled"] = false,
@@ -11333,25 +11562,35 @@ mission = {
                                     [1] = {
                                         ["alt"] = 430,
                                         ["alt_type"] = "BARO",
-                                        ["callsign"] = 117,
+                                        ["callsign"] = 113,
+                                        ["hardpoint_racks"] = true,
                                         ["heading"] = -2.4162759954849,
-                                        ["livery_id"] = "Aeroflot",
+                                        ["livery_id"] = "af standard",
                                         ["name"] = "Aerial-1-3-2",
                                         ["onboard_num"] = "027",
                                         ["parking"] = "12",
                                         ["parking_id"] = "05",
                                         ["payload"] = {
-                                            ["chaff"] = 0,
-                                            ["flare"] = 0,
-                                            ["fuel"] = "3080",
+                                            ["chaff"] = 96,
+                                            ["flare"] = 96,
+                                            ["fuel"] = "11700",
                                             ["gun"] = 100,
                                             ["pylons"] = {
+                                                [2] = {
+                                                    ["CLSID"] = "{7D7EC917-05F6-49D4-8045-61FC587DD019}",
+                                                }, -- end of [2]
+                                                [5] = {
+                                                    ["CLSID"] = "{16602053-4A12-40A2-B214-AB60D481B20E}",
+                                                }, -- end of [5]
+                                                [7] = {
+                                                    ["CLSID"] = "{7D7EC917-05F6-49D4-8045-61FC587DD019}",
+                                                }, -- end of [7]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 2.4162759954849,
                                         ["skill"] = "High",
                                         ["speed"] = 138.88888888889,
-                                        ["type"] = "Yak-40",
+                                        ["type"] = "Su-24M",
                                         ["unitId"] = 1145,
                                         ["x"] = -125267.45986555,
                                         ["y"] = 760673.31674914,
@@ -12724,7 +12963,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 21087,
+    ["currentKey"] = 21779,
     ["date"] = {
         ["Day"] = 11,
         ["Month"] = 6,
@@ -19061,9 +19300,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -125051.76568243,
-        ["centerY"] = 760860.17305557,
-        ["zoom"] = 659.6139080415,
+        ["centerX"] = -303101.60063146,
+        ["centerY"] = 586444.21413929,
+        ["zoom"] = 1515892.6298904,
     }, -- end of ["map"]
     ["maxDictId"] = 7,
     ["pictureFileNameB"] = {

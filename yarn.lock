@@ -37,9 +37,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "16.11.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.4.tgz#90771124822d6663814f7c1c9b45a6654d8fd964"
-  integrity sha512-TMgXmy0v2xWyuCSCJM6NCna2snndD8yvQF67J29ipdzMcsPa9u+o0tjF5+EQNdhcuZplYuouYqpc4zcd5I6amQ==
+  version "16.11.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.6.tgz#6bef7a2a0ad684cf6e90fcfe31cecabd9ce0a3ae"
+  integrity sha512-ua7PgUoeQFjmWPcoo9khiPum3Pd60k4/2ZGXt18sm2Slk0W0xZTqt5Y0Ny1NyBiN1EVQ/+FaF9NcY4Qe6rwk5w==
 
 "@types/responselike@*", "@types/responselike@^1.0.0":
   version "1.0.0"
@@ -236,9 +236,9 @@ jszip@^3.7.1:
     set-immediate-shim "~1.0.1"
 
 keyv@^4.0.0:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.0.3.tgz#4f3aa98de254803cafcd2896734108daa35e4254"
-  integrity sha512-zdGa2TOpSZPq5mU6iowDARnMBZgtCqJ11dJROFi6tg6kTn4nuUdU09lFyLFSaHrWqpIJ+EBq4E8/Dc0Vx5vLdA==
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.0.4.tgz#f040b236ea2b06ed15ed86fbef8407e1a1c8e376"
+  integrity sha512-vqNHbAc8BBsxk+7QBYLW0Y219rWcClspR6WSeoHYKG5mnsSoOH+BL1pWq02DDCVdvvuUny5rkBlzMRzoqc+GIg==
   dependencies:
     json-buffer "3.0.1"
 
@@ -424,9 +424,9 @@ util-deprecate@~1.0.1:
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
 veaf-mission-creation-tools@^4.0.0:
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/veaf-mission-creation-tools/-/veaf-mission-creation-tools-4.23.0.tgz#1131d0f56a106973673fff412f1049a761476b8c"
-  integrity sha512-mEm3OfqLIQH59pEKKo6lFtRwnbAYd8LIo/OfQpwBvIBt97b1JRUKwttRWHyJbM5T/7mzZCq9dxvwY7i73kPrvA==
+  version "4.24.0"
+  resolved "https://registry.yarnpkg.com/veaf-mission-creation-tools/-/veaf-mission-creation-tools-4.24.0.tgz#187a2474e99bb8e0ddbb92f9ab1f6e346a09babf"
+  integrity sha512-Vl+UmkATMFV0GkyL8QKQyeugQ36ylfbOrLTv6QXCBspcwnsrlEObF1J5r0yfs5d/QNxi9nZaxK4PX7KnErHaMQ==
   dependencies:
     got "^11.1.4"
     graceful-fs "^4.1.6"
