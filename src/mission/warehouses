@@ -63,7 +63,7 @@ warehouses = {
         [14] = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
-            ["coalition"] = "NEUTRAL",
+            ["coalition"] = "BLUE",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -153,7 +153,7 @@ warehouses = {
         [17] = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
-            ["coalition"] = "NEUTRAL",
+            ["coalition"] = "RED",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -603,7 +603,7 @@ warehouses = {
         [32] = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
-            ["coalition"] = "NEUTRAL",
+            ["coalition"] = "RED",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
