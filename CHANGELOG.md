@@ -1,3 +1,26 @@
+### 0.0.5
+* ADD Airquake Zone (BLUE)
+* ADD SITUATION Novorossiysk BLUE airport
+* ADD SITUATION Gelendhik RED airport
+* ADD SITUATION Beslan RED airport
+* ADD RED-PLAYER AirQuake MiG-15 x4
+* ADD RED-PLAYER AirQuake MiG-19 x4
+* ADD RED-PLAYER AirQuake MiG-21 x4
+* ADD RED-PLAYER AirQuake L-39ZA x4
+* ADD BLUE-PLAYER AirQuake F-5 x4
+* ADD BLUE-PLAYER AirQuake F-86 x4
+* ADD BLUE-PLAYER AirQuake C-101CC x4
+* ADD BLUE-PLAYER AirQuake A-4E x4
+* ADD BLUE-PLAYER AirQuake AJS37 x4
+* ADD RED-PLAYER Beslan L-39ZA x4
+* ADD BLUE-PLAYER Kutaisi C-101CC x4
+* ADD BLUE-PLAYER Kutaisi AJS37 x4
+* ADD CAP on demand: F86-fox2, C101cc-fox2, Mig15-fox2, Mig19-fox2, L39za-fox2
+* FIX escort mission : no threat reaction
+
+### 0.0.4
+* FIX escort mission speed
+
 ### 0.0.3
 
 * ADD RED-AI RED-Magic frequency
@@ -14,7 +37,7 @@
 * ADD SITUATION freqplan
 * ADD SITUATION GUDAUTA BLUE airport
 * ADD RED-AI RED-Magic-Escort (2x MiG-23)
-* ADD BLUE-AI BLUE-Magic-Escort (2x F-23)
+* ADD BLUE-AI BLUE-Magic-Escort (2x F-14A)
 * ADD BLUE-PLAYER Kutaisi F-5 x4
 * FIX RED-AI Kutaisi-F86-ia-1 AirToAir rules
 
