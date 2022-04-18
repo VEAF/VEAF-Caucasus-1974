@@ -8,6 +8,6 @@ dictionary = {
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
-    ["DictKey_descriptionText_1"] = "",
+    ["DictKey_descriptionText_1"] = "SITAC: https://github.com/VEAF/VEAF-Caucasus-1974#readme",
     ["DictKey_sortie_5"] = "",
 } -- end of dictionary
