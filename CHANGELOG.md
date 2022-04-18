@@ -1,4 +1,4 @@
-### 0.0.5
+### 0.0.6
 * ADD SITUATION Mozdok RED airport
 * ADD MISSION Intercept Strike (MiG27K x2) from Kutaisi to Mozdok
 * FIX RED-PLAYER Beslan L-39ZA x4 (was IA)
