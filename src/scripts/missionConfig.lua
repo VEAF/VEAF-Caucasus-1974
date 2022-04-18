@@ -271,6 +271,37 @@ BUG -- WIP
 		:initialize()
 	)
 
+	veafCombatMission.AddMission(
+		VeafCombatMission.new()
+        :setSecured(false)
+        :setRadioMenuEnabled(true)
+		:setName("RED-Intercept-Strike-Kutaisi-to-Mozdok")
+		:setFriendlyName("Intercept Strike Flight from Kutaisi to Mozdok")
+		:setBriefing([[
+A MiG-27K strike flight has takefoff from Kutaisi.
+It's going to Mozdok.
+]]
+)
+		:addElement(
+			VeafCombatMissionElement.new()
+			:setName("Kutaisi-MiG-27K")
+			:setGroups({
+				"Kutaisi-MiG-27K",
+				})
+			:setSkill("Ace")
+            :setScalable(true)
+		)
+
+		:addObjective(
+			VeafCombatMissionObjective.new()
+			:setName("Kill Strike Flight")
+			:setDescription("you must kill the flight")
+			:setMessage("%d aircrafts destroyed !")
+			:configureAsKillEnemiesObjective()
+		)
+		:initialize()
+	)
+
     veaf.loggers.get(veaf.Id):info("init - veafCombatMission")
     veafCombatMission.initialize()
 end

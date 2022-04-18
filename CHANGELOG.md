@@ -1,4 +1,9 @@
 ### 0.0.5
+* ADD SITUATION Mozdok RED airport
+* ADD MISSION Intercept Strike (MiG27K x2) from Kutaisi to Mozdok
+* FIX RED-PLAYER Beslan L-39ZA x4 (was IA)
+
+### 0.0.5
 * ADD Airquake Zone (BLUE)
 * ADD SITUATION Novorossiysk BLUE airport
 * ADD SITUATION Gelendhik RED airport
