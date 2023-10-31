@@ -1,3 +1,4 @@
+
 ### 0.1.0
 * UPD Veaf Scripts 5.0.0
 * ADD sectors TZ_N0 .. TZ_N8 (North)
@@ -19,7 +20,6 @@
 * ADD QRA-BLUE sector TZ_S5-Gudauta
 * ADD QRA-RED like (TU-22) on sector TZ_F0 and TZ_F1
 * ADD QRA-BLUE like (B-1B) on sector TZ_F0 and TZ_F1
-
 * ADD BLUE-PLAYER Kutaisi Mirage-F1 x4
 
 ### 0.0.6
