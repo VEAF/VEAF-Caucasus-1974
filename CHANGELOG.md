@@ -1,3 +1,27 @@
+
+### 0.1.0
+* UPD Veaf Scripts 5.0.0
+* ADD sectors TZ_N0 .. TZ_N8 (North)
+* ADD sectors TZ_S0 .. TZ_S8 (South)
+* ADD sectors TZ_F0 .. TZ_F2 (Fronteer)
+* ADD QRA-RED sector TZ_N0-Beslan
+* ADD QRA-RED sector TZ_N0-Mozdok
+* ADD QRA-RED sector TZ_N1-Nalchik
+* ADD QRA-RED sector TZ_N2-MineVody
+* ADD QRA-RED sector TZ_N4-Psebay
+* ADD QRA-RED sector TZ_N5-Maykop
+* ADD QRA-RED sector TZ_S7-Sochi
+* ADD QRA-BLUE sector TZ_S0-Tbilisi-North
+* ADD QRA-BLUE sector TZ_S0-Tbilisi
+* ADD QRA-BLUE sector TZ_S1-Gori
+* ADD QRA-BLUE sector TZ_S3-Kutaisi-North
+* ADD QRA-BLUE sector TZ_S3-Kutaisi
+* ADD QRA-BLUE sector TZ_S4-Sukhumi
+* ADD QRA-BLUE sector TZ_S5-Gudauta
+* ADD QRA-RED like (TU-22) on sector TZ_F0 and TZ_F1
+* ADD QRA-BLUE like (B-1B) on sector TZ_F0 and TZ_F1
+* ADD BLUE-PLAYER Kutaisi Mirage-F1 x4
+
 ### 0.0.6
 * ADD SITUATION Mozdok RED airport
 * ADD MISSION Intercept Strike (MiG27K x2) from Kutaisi to Mozdok

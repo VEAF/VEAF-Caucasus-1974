@@ -8,63 +8,268 @@ veaf.config.MISSION_EXPORT_PATH = nil -- use default folder
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize QRA
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veaf then
-    --VeafQRA.new()
-    --:setName("QRA_Minevody")
-    --:addGroup("QRA_Minevody")
-    --:setRadius(106680) -- 350,000 feet
-    --:setCoalition(coalition.side.RED)
-    --:addEnnemyCoalition(coalition.side.BLUE)
-    --:setReactOnHelicopters()
-    --:start()
+if veafQraManager then
+
+    veaf.loggers.get(veaf.Id):info("QRA manager")
+
+	-- https://github.com/VEAF/documentation/blob/main/mission-maker/qra.md
+
+    -- BLUE QRA
+    VeafQRA:new()
+    :setName("QRA_S0-Tbilisi-North")
+    :addGroup("QRA_S0-Tbilisi-North")
+    :setTriggerZone("TZ_S0-Tbilisi-North")
+    :setCoalition(coalition.side.BLUE)
+    :addEnnemyCoalition(coalition.side.RED)
+    :setDrawZone(true)
+    :start()
+  
+  	VeafQRA:new()
+      :setName("QRA_S0-Tbilisi")
+      :addGroup("QRA_S0-Tbilisi")
+      :setTriggerZone("TZ_S0-Tbilisi")
+      :setCoalition(coalition.side.BLUE)
+      :addEnnemyCoalition(coalition.side.RED)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_S1-Gori")
+      :addGroup("QRA_S1-Gori")
+      :setTriggerZone("TZ_S1-Gori")
+      :setCoalition(coalition.side.BLUE)
+      :addEnnemyCoalition(coalition.side.RED)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_S3-Kutaisi-North")
+      :addGroup("QRA_S3-Kutaisi-North")
+      :setTriggerZone("TZ_S3-Kutaisi-North")
+      :setCoalition(coalition.side.BLUE)
+      :addEnnemyCoalition(coalition.side.RED)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_S3-Kutaisi")
+      :addGroup("QRA_S3-Kutaisi")
+      :setTriggerZone("TZ_S3-Kutaisi")
+      :setCoalition(coalition.side.BLUE)
+      :addEnnemyCoalition(coalition.side.RED)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_S4-Senaki")
+      :addGroup("QRA_S4-Senaki")
+      :setTriggerZone("TZ_S4-Senaki")
+      :setCoalition(coalition.side.BLUE)
+      :addEnnemyCoalition(coalition.side.RED)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_S4-Inguri")
+      :addGroup("QRA_S4-Inguri")
+      :setTriggerZone("TZ_S4-Inguri")
+      :setCoalition(coalition.side.BLUE)
+      :addEnnemyCoalition(coalition.side.RED)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_S5-Sukhumi")
+      :addGroup("QRA_S5-Sukhumi")
+      :setTriggerZone("TZ_S5-Sukhumi")
+      :setCoalition(coalition.side.BLUE)
+      :addEnnemyCoalition(coalition.side.RED)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_S6-Gudauta")
+      :addGroup("QRA_S6-Gudauta")
+      :setTriggerZone("TZ_S6-Gudauta")
+      :setCoalition(coalition.side.BLUE)
+      :addEnnemyCoalition(coalition.side.RED)
+      :setDrawZone(true)
+	  :start()
+
+    -- BLUE QRA Like
+    VeafQRA:new()
+      :setName("QRA_F0-B1B")
+      :addGroup("QRA_F0-B1B")
+      :setTriggerZone("TZ_F0")
+      :setCoalition(coalition.side.BLUE)
+      :addEnnemyCoalition(coalition.side.RED)
+      --:setDrawZone(true)
+      :start()
+
+    VeafQRA:new()
+      :setName("QRA_F1-B1B")
+      :addGroup("QRA_F1-B1B")
+      :setTriggerZone("TZ_F1")
+      :setCoalition(coalition.side.BLUE)
+      :addEnnemyCoalition(coalition.side.RED)
+      --:setDrawZone(true)
+      :start()
+
+    VeafQRA:new()
+      :setName("QRA_F2-B1B")
+      :addGroup("QRA_F2-B1B")
+      :setTriggerZone("TZ_F2")
+      :setCoalition(coalition.side.BLUE)
+      :addEnnemyCoalition(coalition.side.RED)
+      --:setDrawZone(true)
+      :start()
+
+    -- RED QRA
+    VeafQRA:new()
+      :setName("QRA_N0-Beslan")
+      :addGroup("QRA_N0-Beslan")
+      :setTriggerZone("TZ_N0-Beslan")
+      :setCoalition(coalition.side.RED)
+      :addEnnemyCoalition(coalition.side.BLUE)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_N0-Mozdok")
+      :addGroup("QRA_N0-Mozdok")
+      :setTriggerZone("TZ_N0-Mozdok")
+      :setCoalition(coalition.side.RED)
+      :addEnnemyCoalition(coalition.side.BLUE)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_N1-Nalchik")
+      :addGroup("QRA_N1-Nalchik")
+      :setTriggerZone("TZ_N1-Nalchik")
+      :setCoalition(coalition.side.RED)
+      :addEnnemyCoalition(coalition.side.BLUE)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_N2-MineVody")
+      :addGroup("QRA_N2-MineVody")
+      :setTriggerZone("TZ_N2-MineVody")
+      :setCoalition(coalition.side.RED)
+      :addEnnemyCoalition(coalition.side.BLUE)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_N4-Psebay")
+      :addGroup("QRA_N4-Psebay")
+      :setTriggerZone("TZ_N4-Psebay")
+      :setCoalition(coalition.side.RED)
+      :addEnnemyCoalition(coalition.side.BLUE)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_N5-Maykop")
+      :addGroup("QRA_N5-Maykop")
+      :setTriggerZone("TZ_N5-Maykop")
+      :setCoalition(coalition.side.RED)
+      :addEnnemyCoalition(coalition.side.BLUE)
+      :setDrawZone(true)
+	  :start()
+
+    VeafQRA:new()
+      :setName("QRA_S7-Sochi")
+      :addGroup("QRA_S7-Sochi")
+      :setTriggerZone("TZ_S7-Sochi")
+      :setCoalition(coalition.side.RED)
+      :addEnnemyCoalition(coalition.side.BLUE)
+      :setDrawZone(true)
+	  :start()
+
+    -- RED QRA Like
+    VeafQRA:new()
+      :setName("QRA_F0-TU22")
+      :addGroup("QRA_F0-TU22")
+      :setTriggerZone("TZ_F0")
+      :setCoalition(coalition.side.RED)
+      :addEnnemyCoalition(coalition.side.BLUE)
+      :setDrawZone(true)
+	  :start()
+
+      VeafQRA:new()
+      :setName("QRA_F1-TU22")
+      :addGroup("QRA_F1-TU22")
+      :setTriggerZone("TZ_F1")
+      :setCoalition(coalition.side.RED)
+      :addEnnemyCoalition(coalition.side.BLUE)
+      :setDrawZone(true)
+	  :start()
+
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize all the scripts
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafRadio then
+    -- the RADIO module is mandatory as it is used by many other modules
     veaf.loggers.get(veaf.Id):info("init - veafRadio")
     veafRadio.initialize(true)
 end
 if veafSpawn then
+    -- the SPAWN module is mandatory as it is used by many other modules
     veaf.loggers.get(veaf.Id):info("init - veafSpawn")
     veafSpawn.initialize()
 end
 if veafGrass then
+    -- uncomment (and adapt) the following lines to enable the Grass Runways and FARP decoration
+    --[[
     veaf.loggers.get(veaf.Id):info("init - veafGrass")
     veafGrass.initialize()
+    ]]
 end
 if veafCasMission then
+    -- uncomment (and adapt) the following lines to enable the CAS mission module, its commands and its radio menu
+    --[[
     veaf.loggers.get(veaf.Id):info("init - veafCasMission")
     veafCasMission.initialize()
+    ]]
 end
 if veafTransportMission then
+    -- uncomment (and adapt) the following lines to enable the Transport mission module, its commands and its radio menu
+    --[[
     veaf.loggers.get(veaf.Id):info("init - veafTransportMission")
     veafTransportMission.initialize()
+    ]]
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- change some default parameters
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-veaf.DEFAULT_GROUND_SPEED_KPH = 25
+-- here you can redefine the parameters you want (see in the source files)
+--veaf.DEFAULT_GROUND_SPEED_KPH = 25
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize SHORTCUTS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafShortcuts then
+    -- the SHORTCUTS module is mandatory as it is used by many other modules
     veaf.loggers.get(veaf.Id):info("init - veafShortcuts")
     veafShortcuts.initialize()
 
     -- you can add all the shortcuts you want here. Shortcuts can be any VEAF command, as entered in a map marker.
     -- here are some examples :
 
-    -- veafShortcuts.AddAlias(
-    --     VeafAlias.new()
-    --         :setName("-sa11")
-    --         :setDescription("SA-11 Gadfly (9K37 Buk) battery")
-    --         :setVeafCommand("_spawn group, name sa11")
-    --         :setBypassSecurity(true)
-    -- )
+    --[[
+     veafShortcuts.AddAlias(
+         VeafAlias:new()
+             :setName("-sa11")
+             :setDescription("SA-11 Gadfly (9K37 Buk) battery")
+             :setVeafCommand("_spawn group, name sa11")
+             :setBypassSecurity(true)
+     )
+     ]]
 end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -103,7 +308,7 @@ end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafMove then
     veaf.loggers.get(veaf.Id):info("Setting move tanker radio menus")
-    -- keeping the veafMove.Tankers table empty will force veafMove.initialize() to browse the units, and find the tankers
+    -- keeping the veafMove.Tankers table empty will force veafMove.initialize() to browse the units, and find the tankers automatically
     veaf.loggers.get(veaf.Id):info("init - veafMove")
     veafMove.initialize()
 end
@@ -115,193 +320,6 @@ end
 if veafCombatMission then 
     veaf.loggers.get(veaf.Id):info("Loading configuration")
 	
-	veafCombatMission.AddMission(
-		VeafCombatMission.new()
-        :setSecured(false)
-        :setRadioMenuEnabled(true)
-		:setName("RED-Escort-Transport-Nalchik-to-Maykop-1")
-		:setFriendlyName("Escort Nalchik-Maykop RED Easy")
-		:setBriefing([[
-Escort a Yak-40 from Nalchik to Maykop
-Divert granted to Sochi (when Transport reach Russia over Sochi)
-Easy 2x 2xF86-F
-]]
-)
-		:addElement(
-			VeafCombatMissionElement.new()
-			:setName("CAP")
-			:setGroups({
-				"Kutaisi-F86-ia-1", 
-				"Kutaisi-F86-ia-2", 
-				})
-			:setSkill("Random")
-            :setScalable(false)
-		)
-
-		:addElement(
-			VeafCombatMissionElement.new()
-			:setName("Transport")
-			:setGroups({
-				"Nalchik-Transport-Krymsk-1", 
-				})
-			:setSkill("Random")
-            :setScalable(false)
-		)
-		
-		:addObjective(
-			VeafCombatMissionObjective.new()
-			:setName("Kill interceptors")
-			:setDescription("you must kill all interceptors")
-			:setMessage("%d interceptors destroyed !")
-			:configureAsKillEnemiesObjective()
-		)
-		:initialize()
-	)
-
-	veafCombatMission.AddMission(
-		VeafCombatMission.new()
-        :setSecured(false)
-        :setRadioMenuEnabled(true)
-		:setName("RED-Escort-Transport-Nalchik-to-Maykop-2")
-		:setFriendlyName("Escort Nalchik-Maykop RED Medium")
-		:setBriefing([[
-Escort a Yak-40 from Nalchik to Maykop
-Divert granted to Sochi (when Transport reach Russia over Sochi)
-Medium 2x 2xF5-E
-]]
-)
-		:addElement(
-			VeafCombatMissionElement.new()
-			:setName("CAP")
-			:setGroups({
-				"Kutaisi-F5-ia-1",
-				"Kutaisi-F5-ia-2",
-				})
-			:setSkill("Random")
-            :setScalable(false)
-		)
-
-		:addElement(
-			VeafCombatMissionElement.new()
-			:setName("Transport")
-			:setGroups({
-				"Nalchik-Transport-Krymsk-2", 
-				})
-			:setSkill("Random")
-            :setScalable(false)
-		)
-		
-		:addObjective(
-			VeafCombatMissionObjective.new()
-			:setName("Kill interceptors")
-			:setDescription("you must kill all interceptors")
-			:setMessage("%d interceptors destroyed !")
-			:configureAsKillEnemiesObjective()
-		)
-		:initialize()
-	)
-
-    veafCombatMission.AddMissionsWithSkillAndScale(
-		VeafCombatMission.new()
-		:setSecured(false)
-		:setRadioMenuEnabled(true)
-		:setName("RED-Intercept-Reco-Tbilisi-to-Gudauta")
-		:setFriendlyName("Intercept a RECON patrol between Tbilisi and Gudauta")
-		:setBriefing([[
-An F-4E recon flight is patroling between Tbilisi and Gudauta
-Destroy them.
-]]
-)
-		:addElement(
-			VeafCombatMissionElement.new()
-			:setName("RED-Intercept-Reco-Tbilisi-to-Gudauta-Patrol")
-            :setGroups({"Tbilisi-F4-ai-1"})
-            :setScalable(true)
-		)
-		:addObjective(
-			VeafCombatMissionObjective.new()
-			:setName("Destroy the patrol")
-			:setDescription("you must destroy the patrol")
-			:setMessage("%d transport planes destroyed !")
-			:configureAsKillEnemiesObjective()
-		)
-		:initialize()
-	)
-	
-	veafCombatMission.AddMission(
-		VeafCombatMission.new()
-        :setSecured(false)
-        :setRadioMenuEnabled(true)
-		:setName("RED-Intercept-Transport-Tbilisi-to-Gudauta")
-		:setFriendlyName("Intercept Transport from Tbilisi to Gudauta")
-		:setBriefing([[
-A C130 transport from Tbilisi is going to Gudauta
-Destroy this transport and its escort.
-Transporter estimated position on Bulls at mission start +8minutes
-BUG -- WIP
-]]
-)
-		:addElement(
-			VeafCombatMissionElement.new()
-			:setName("Tbilisi-C130-ai-1")
-			:setGroups({
-				"Tbilisi-C130-ai-1",
-				})
-			:setSkill("Random")
-            :setScalable(false)
-		)
-
-		:addElement(
-			VeafCombatMissionElement.new()
-			:setName("Tbilisi-C130-ai-1-Escort-1")
-			:setGroups({
-				"Tbilisi-C130-ai-1-Escort-1", 
-				})
-			:setSkill("Random")
-            :setScalable(false)
-		)
-
-		:addObjective(
-			VeafCombatMissionObjective.new()
-			:setName("Kill Transport and Escort")
-			:setDescription("you must kill the transporter and its escort")
-			:setMessage("%d aircrafts destroyed !")
-			:configureAsKillEnemiesObjective()
-		)
-		:initialize()
-	)
-
-	veafCombatMission.AddMission(
-		VeafCombatMission.new()
-        :setSecured(false)
-        :setRadioMenuEnabled(true)
-		:setName("RED-Intercept-Strike-Kutaisi-to-Mozdok")
-		:setFriendlyName("Intercept Strike Flight from Kutaisi to Mozdok")
-		:setBriefing([[
-A MiG-27K strike flight has takefoff from Kutaisi.
-It's going to Mozdok.
-]]
-)
-		:addElement(
-			VeafCombatMissionElement.new()
-			:setName("Kutaisi-MiG-27K")
-			:setGroups({
-				"Kutaisi-MiG-27K",
-				})
-			:setSkill("Ace")
-            :setScalable(true)
-		)
-
-		:addObjective(
-			VeafCombatMissionObjective.new()
-			:setName("Kill Strike Flight")
-			:setDescription("you must kill the flight")
-			:setMessage("%d aircrafts destroyed !")
-			:configureAsKillEnemiesObjective()
-		)
-		:initialize()
-	)
-
     veaf.loggers.get(veaf.Id):info("init - veafCombatMission")
     veafCombatMission.initialize()
 end
@@ -333,63 +351,12 @@ end
 -- configure NAMEDPOINTS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafNamedPoints then
+    -- the NAMED POINTS module is mandatory as it is used by many other modules
 
     veaf.loggers.get(veaf.Id):info("Loading configuration")
 
     veaf.loggers.get(veaf.Id):info("init - veafNamedPoints")
-    if theatre == "syria" then
-        veafNamedPoints.Points = {
-            -- Turkish Airports
-            {name="INCIRLIK AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("37.001944", "35.425833"), {atc=true, tower="V129.40, U360.10", tacan="21X", runways={{name="05", hdg=50, ils="109.30"}, {name="23", hdg=230, ils="111.70"}}})},
-            {name="ADANA SAKIRPASA INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.981944", "35.280278"), {atc=true, tower="V121.10, U251.00", runways={{name="05", hdg=51, ils="108.70"}, {name="23", hdg=231}}})},
-            {name="HATAY AIRPORT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.360278", "36.285000"), {atc=true, tower="V128.50, U250.25", runways={{name="04", hdg=40, ils="108.90"}, {name="22", hdg=220, ils="108.15"}}})},
-            {name="GANZIANTEP",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.947057", "37.478579"), {atc=true, tower="V120.10, U250.05", runways={{name="10", hdg=100}, {name="28", hdg=280, ils="109.10"}}})},
-
-            -- Syrian Airports
-            {name="MINAKH HELIPT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.521944", "37.041111"), {atc=true, tower="V120.60, U250.80", runways={{name="10", hdg=97}, {name="28", hdg=277}}})},
-            {name="ALEPPO INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.180556", "37.224167"), {atc=true, tower="V119.10, U250.85", runways={{name="09", hdg=93}, {name="27", hdg=273}}})},
-            {name="KUWEIRES AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.186944", "37.583056"), {atc=true, tower="V120.50, U251.10", runways={{name="10", hdg=97}, {name="28", hdg=277}}})},
-            {name="JIRAH AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("36.097500", "37.940278"), {atc=true, tower="V118.10, U250.30", runways={{name="10", hdg=96}, {name="28", hdg=276}}})},
-            {name="TAFTANAZ HELIPT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("35.972222", "36.783056"), {atc=true, tower="V122.80, U251.45", runways={{name="10", hdg=100}, {name="28", hdg=280}}})},
-            {name="ABU AL DUHUR AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("35.732778", "37.101667"), {atc=true, tower="V122.20, U250.45", runways={{name="09", hdg=89}, {name="27", hdg=269}}})},
-            {name="TABQA AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("35.754444", "38.566667"), {atc=true, tower="V118.50, U251.40", runways={{name="09", hdg=88}, {name="27", hdg=268}}})}, 
-            {name="BASSEL AL ASSAD (KHMEIMIM)", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("35.400833", "35.948611"), {atc=true, tower="V118.10, U250.55", runways={{name="17R", hdg=174, ils="109.10"}, {name="17L", hdg=174}, {name="35R", hdg=354}, {name="35L", hdg=354}}})}, 
-            {name="HAMA AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("35.118056", "36.711111"), {atc=true, tower="V118.05, U250.20", runways={{name="09", hdg=96}, {name="27", hdg=276}}})},
-            {name="AL QUSAYR AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.570833", "36.571944"),  {atc=true, tower="V119.20, U251.55", runways={{name="10", hdg=98}, {name="28", hdg=278}}})}, 
-            {name="PALYMYRA AIRPORT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.557222", "38.316667"), {atc=true, tower="V121.90, U250.90", runways={{name="08", hdg=80}, {name="26", hdg=260}}})}, 
-            {name="AN NASIRIYAH AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.918889", "36.866389"), {atc=true, tower="V122.30, U251.65", runways={{name="04", hdg=41}, {name="22", hdg=221}}})},
-            {name="AL DUMAYR AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.609444", "36.748889"), {atc=true, tower="V120.30, U251.95", runways={{name="06", hdg=62}, {name="24", hdg=242}}})}, 
-            {name="MEZZEH AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.477500", "36.223333"), {atc=true, tower="V120.70, U250.75", runways={{name="06", hdg=57}, {name="24", hdg=237}}})}, 
-            {name="MARJ AS SULTAN NTH HELIPT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.500278", "36.466944"), {atc=true, tower="V122.70, U250.60", runways={{name="08", hdg=80}, {name="26", hdg=260}}})}, 
-            {name="MARJ AS SULTAN STH HELIPT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.486944", "36.475278"), {atc=true, tower="V122.90, U251.90", runways={{name="09", hdg=90}, {name="27", hdg=270}}})}, 
-            {name="QABR AS SITT HELIPT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.458611", "36.357500"), {atc=true, tower="V122.60, U250.95", runways={{name="05", hdg=50}, {name="23", hdg=230}}})},
-            {name="DAMASCUS INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.415000", "36.519444"), {atc=true, tower="V118.50, U251.85", runways={{name="05R", hdg=46}, {name="05L", hdg=46}, {name="23R", hdg=226, ils="109.90"}, {name="23L", hdg=226}}})},
-            {name="MARJ RUHAYYIL AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.286389", "36.457222"), {atc=true, tower="V120.80, U250.65", runways={{name="06", hdg=59}, {name="24", hdg=239}}})},
-            {name="KHALKHALAH AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.077222", "36.558056"), {atc=true, tower="V122.50, U250.35", runways={{name="07", hdg=72}, {name="15", hdg=147}, {name="25", hdg=252}, {name="33", hdg=327}}})},
-            {name="SAYQUAL AB",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.679816", "37.218204"), {atc=true, tower="V120.40, U251.30", runways={{name="08", hdg=80}, {name="26", hdg=260}}})},
-            {name="SHAYRAT AB",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.494819", "36.903173"), {atc=true, tower="V120.20, U251.35", runways={{name="11", hdg=110}, {name="29", hdg=290}}})},
-            {name="TIYAS AB",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.522645", "37.627498"), {atc=true, tower="V120.50, U251.50", runways={{name="09", hdg=90}, {name="27", hdg=270}}})},
-
-            -- Lebanese Airports
-            {name="RENE MOUAWAD AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.589444", "36.011389"), {atc=true, tower="V121.00, U251.20", runways={{name="06", hdg=59}, {name="24", hdg=239}}})},
-            {name="HAJAR AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("34.283333", "35.680278"),  {atc=true, tower="V121.50, U251.60", runways={{name="02", hdg=25}, {name="20", hdg=205}}})},
-            {name="BEIRUT INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.821111", "35.488333"), {atc=true, tower="V118.90, U251.80", runways={{name="03", hdg=30, ils="110.70"}, {name="16", hdg=164, ils="110.10"}, {name="17", hdg=175, ils="109.50"}, {name="21", hdg=210}, {name="34", hdg=344}, {name="35", hdg=355}}})},
-            {name="RAYAK AB", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.852222", "35.990278"),  {atc=true, tower="V124.40, U251.15", runways={{name="04", hdg=42}, {name="22", hdg=222}}})},
-            {name="NAQOURA HELIPT",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.107877", "35.127728"), {atc=true, tower="V122.00, U251.70"})},
-
-            -- Israeli Airports
-            {name="KIRYAT SHMONA AIRPORT", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("33.216667", "35.596667"), {atc=true, tower="V118.40, U250.50", runways={{name="03", hdg=34}, {name="21", hdg=214}}})},
-            {name="HAIFA INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.809167", "35.043056"), {atc=true, tower="V127.80, U250.15", runways={{name="16", hdg=158}, {name="34", hdg=338}}})},
-            {name="RAMAT DAVID INTL", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.665000", "35.179444"), {atc=true, tower="V118.60, U251.05", runways={{name="09", hdg=85}, {name="11", hdg=107}, {name="15", hdg=143}, {name="27", hdg=265}, {name="29", hdg=287}, {name="33", hdg=323}}})}, 
-            {name="MEGIDDO AIRFIELD", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.597222", "35.228611"), {atc=true, tower="V119.90, U250.70", runways={{name="09", hdg=89}, {name="27", hdg=269}}})}, 
-            {name="EYN SHEMER AIRFIELD", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.440556", "35.007500"), {atc=true, tower="V123.40, U250.00", runways={{name="09", hdg=96}, {name="27", hdg=276}}})}, 
-
-            -- Jordan Airports
-            {name="KING HUSSEIN AIR COLLEGE", point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.356389", "36.259167"), {atc=true, tower="V118.30, U250.40", runways={{name="13", hdg=128}, {name="31", hdg=308}}})},
-            {name="H4",point=veafNamedPoints.addDataToPoint(coord.LLtoLO("32.539122", "38.195841"), {atc=true, tower="V122.60, U250.10", runways={{name="10", hdg=100}, {name="28", hdg=280}}})}, 
-        }
-        veafNamedPoints.addAllSyriaCities()
-    elseif theatre == "caucasus" then
+    if theatre == "caucasus" then
         veafNamedPoints.Points = {
             -- airbases in Georgia
             {name="AIRBASE Batumi",  point={x=-356437,y=0,z=618211, atc=true, tower="V131, U260", tacan="16X BTM", runways={{name="13", hdg=125, ils="110.30"}, {name="31", hdg=305}}}},
@@ -415,30 +382,6 @@ if veafNamedPoints then
             {name="AIRBASE Sochi",               point={x=-165163,y=0,z=460902, atc=true, tower="V127, U256", runways={ {name="06", hdg=62, ils="111.10"}, {name="24", hdg=242}}}},
         }
         veafNamedPoints.addAllCaucasusCities()
-    elseif theatre == "persiangulf" then
-        veafNamedPoints.Points = {
-        }
-        veafNamedPoints.addAllPersianGulfCities()
-    elseif theatre == "thechannel" then
-        veafNamedPoints.Points = {
-        }
-        veafNamedPoints.addAllTheChannelCities()
-    elseif theatre == "marianaislands" then
-        veafNamedPoints.Points = {
-            -- airbases in Blue Island
-            {name="AIRBASE Andersen AFB",  point={x=-010688,y=0,z=014822, atc=true, tower="V126.2, U250.1", tacan="54X", runways={{name="06", hdg=66}, {name="24", hdg=246}}}},
-            {name="AIRBASE Antonio B. Won Pat Intl", point={x=-000068,y=0,z=-000109, atc=true, tower="V118.1, U340.2", runways={ {name="6", hdg=65, ils="110.30"}, {name="24", hdg=245}}}},
-            {name="AIRBASE Olf Orote",point={x=-005047,y=0,z=-016913, atc=false}},
-            {name="AIRBASE Santa Rita",point={x=-013576,y=0,z=-009925, atc=false}},
-            
-            -- airbases in Neutral Island
-            {name="AIRBASE Rota Intl", point={x=-075886,y=0,z=048612, atc=true, tower="V123.6, U250", tacan="44X KTS", runways={ {name="09", hdg=92, ils="109.75"}, {name="27", hdg=272}}}},
-            
-            -- airbases in Red Island
-            {name="AIRBASE Tinian Intl",  point={x=-166865,y=0,z=090027, atc=true, tower="V123.65, U250.05", tacan="31X TSK", runways={ {name="0", hdg=94, ils="108.90"}, {name="27", hdg=274}}}},
-            {name="AIRBASE Saipan Intl", point={x=180074,y=0,z=101921, atc=true, tower="V125.7, U256.9", runways={{name="07", hdg=68, ils="109.90"}, {name="25", hdg=248}}}},
-        }
-        veafNamedPoints.addAllMarianasIslandsCities()
     else
         veaf.loggers.get(veaf.Id):warn(string.format("theatre %s is not yet supported by veafNamedPoints", theatre))
     end
@@ -453,6 +396,8 @@ end
 -- configure SECURITY
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafSecurity then
+    -- the SECURITY module is mandatory as it is used by many other modules
+
     --let's not set a password
     veaf.SecurityDisabled = true
     --veafSecurity.password_L9["SHA1 hash of the password"] = true -- set the L9 password (the lowest possible security)
@@ -471,30 +416,73 @@ end
 -- configure CARRIER OPERATIONS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafCarrierOperations then
+    -- uncomment (and adapt) the following lines to enable the CARRIER OPERATIONS module, its commands and its radio menu
+    --[[
     veaf.loggers.get(veaf.Id):info("init - veafCarrierOperations")
     veafCarrierOperations.initialize(true)
+    ]]
 end
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- configure CTLD
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+if ctld then
+    -- uncomment (and adapt) the following lines to enable CTLD, its commands and its radio menu
+    --[[
+    veaf.loggers.get(veaf.Id):info("init - ctld")
+    function configurationCallback()
+        veaf.loggers.get(veaf.Id):info("configuring CTLD for %s", veaf.config.MISSION_NAME)
+        -- do what you have to do in CTLD before it is initialized
+        -- ctld.hoverPickup = false
+        -- ctld.slingLoad = true
+      end
+    ctld.initialize(configurationCallback)
+    ]]
+end
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- configure CSAR
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+if csar then
+    -- uncomment (and adapt) the following lines to enable CSAR, its commands and its radio menu
+    --[[
+    veaf.loggers.get(veaf.Id):info("init - csar")
+    function configurationCallback()
+        veaf.loggers.get(veaf.Id):info("configuring CSAR for %s", veaf.config.MISSION_NAME)
+        -- do what you have to do in csar before it is initialized
+        -- csar.enableAllslots = false
+        -- csar.aircraftType = {} -- Type and limit
+        -- csar.aircraftType["SA342Mistral"] = 2
+        -- csar.aircraftType["SA342Minigun"] = 2
+        -- csar.aircraftType["SA342L"] = 2
+        -- csar.aircraftType["SA342M"] = 2
+        -- csar.aircraftType["UH-1H"] = 8
+        -- csar.aircraftType["Mi-8MT"] = 16
+        -- csar.useprefix    = true
+        -- csar.csarPrefix = { "helicargo", "MEDEVAC"}
+    end
+    csar.initialize(configurationCallback)
+    ]]
+end
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize the remote interface
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafRemote then
+    -- uncomment (and adapt) the following lines to enable the REMOTE module (call functions from a remote interface, such as the server), its commands and its radio menu
+    --[[
     veaf.loggers.get(veaf.Id):info("init - veafRemote")
     veafRemote.initialize()
-end
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
--- initialize the interpreter
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafInterpreter then
-    veaf.loggers.get(veaf.Id):info("init - veafInterpreter")
-    veafInterpreter.initialize()
+    ]]
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize Skynet-IADS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafSkynet and false then -- don't use 
+if veafSkynet then
+    -- uncomment (and adapt) the following lines to enable Skynet-IADS
+    --[[
     veaf.loggers.get(veaf.Id):info("init - veafSkynet")
     veafSkynet.initialize(
         false, --includeRedInRadio=true
@@ -502,45 +490,129 @@ if veafSkynet and false then -- don't use
         false, --includeBlueInRadio
         false --debugBlue
     )
+    ]]
+end
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- initialize the interpreter
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+if veafInterpreter then
+    -- the INTERPRETER module is mandatory as it is used by many other modules
+    veaf.loggers.get(veaf.Id):info("init - veafInterpreter")
+    veafInterpreter.initialize()
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize veafSanctuary
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafSanctuary and false then -- don't use 
+if veafSanctuary then
+    -- uncomment (and adapt) the following lines to enable the SANCTUARY module, its commands and its radio menu
+    --[[
     veaf.loggers.get(veaf.Id):info("init - veafSanctuary")
     veafSanctuary.initialize()
+    ]]
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize Hound Elint
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafHoundElint and false then -- don't use Hound Elint
+if veafHoundElint then
+    -- uncomment (and adapt) the following lines to enable Hound Elint
+    --[[
     veaf.loggers.get(veaf.Id):info("init - veafHoundElint")
     veafHoundElint.initialize(
         "ELINT", -- prefix
         { -- red
-            admin = false,
+            --global parameters
+            sectors = {},
             markers = true,
-            atis = false,
-            controller = false
+            disableBDA = false, --disables notifications that a radar has dropped off scope
+            platformPositionErrors = true,
+            NATOmessages = false, --provides positions relative to the bullseye
+            NATO_SectorCallsigns = false, --uses a different pool for sector callsigns
+            ATISinterval = 180,
+            preBriefedContacts = {
+                --"Stuff",
+                --"Thing",
+            }, --contains the name of units placed in the ME which will be designated as pre-briefed (exact location) and who's position will be indicated exactly by Hound until the unit moved 100m away
+            debug = false, --set this to true to make sure your configuration is correct and working as intended
         },
         { -- blue
-            admin = false,
-            markers = true,
-            atis = {
-                freq = 282.125,
-                interval = 15,
-                speed = 1,
-                reportEWR = false
+            sectors = {
+                --Global sector, mandatory inclusion if you want a global ATIS/controller etc., encompasses the whole map so it'll be very crowded in terms of comms
+                [veafHoundElint.globalSectorName] = {
+                    callsign = "Global Sector", --defines a specific callsign for the sector which will be used by the ATIS etc., if absent or nil Hound will assign it a callsign automatically, NATO format of regular Hound format. If true, callsign will be equal to the sector name
+                    atis = {
+                        freq = 282.175,
+                        speed = 1,
+                        --additional params
+                        reportEWR = false
+                    },
+                    controller = {
+                        freq = 282.225,
+                        --additional params
+                        voiceEnabled = true
+                    },
+                    notifier = {
+                        freq = 282.2,
+                        --additional params
+                    },
+                    disableAlerts = false, --disables alerts on the ATIS/Controller when a new radar is detected or destroyed
+                    transmitterUnit = nil, --use the Unit/Pilot name to set who the transmitter is for the ATIS etc. This can be a static, and aircraft or a vehicule/ship
+                    disableTTS = false,
+                },
+                --sector named "Maykop", will be geofenced to the mission editor polygon drawing (free or rectangle) called "Maykop" (case sensitive)
+                ["Maykop"] = {
+                    callsign = true, --defines a specific callsign for the sector which will be used by the ATIS etc., if absent or nil Hound will assign it a callsign automatically, NATO format of regular Hound format. If true, callsign will be equal to the sector name
+                    atis = {
+                        freq = 281.075,
+                        speed = 1,
+                        --additional params
+                        reportEWR = false
+                    },
+                    controller = {
+                        freq = 281.125,
+                        --additional params
+                        voiceEnabled = true
+                    },
+                    notifier = {
+                        freq = 281.1,
+                        --additional params
+                    },
+                    disableAlerts = false, --disables alerts on the ATIS/Controller when a new radar is detected or destroyed
+                    transmitterUnit = nil, --use the Unit/Pilot name to set who the transmitter is for the ATIS etc. This can be a static, and aircraft or a vehicule/ship
+                    disableTTS = false,
+                },
             },
-            controller = {
-                freq = 282.225,
-                voiceEnabled = true
-            }
+            --global parameters
+            markers = true,
+            disableBDA = false, --disables notifications that a radar has dropped off scope
+            platformPositionErrors = true,
+            NATOmessages= true, --provides positions relative to the bullseye
+            NATO_SectorCallsigns = true, --uses a different pool for sector callsigns
+            ATISinterval = 180,
+            preBriefedContacts = {
+                --"Stuff",
+                --"Thing",
+            }, --contains the name of units or groups placed in the ME which will be designated as pre-briefed (exact location) and who's position will be indicated exactly by Hound until the unit moved 100m away. If multiple radars are within a specified group, they'll all be added as pre-briefed targets
+            debug = false, --set this to true to make sure your configuration is correct and working as intended
         }
+        -- args = {
+        --     freq = 250.000,
+        --     modulation = "AM",
+        --     volume = "1.0",
+        --     speed = <speed> -- number default is 0/1 for controller/atis. range is -10 to +10 on windows TTS. for google it's 0.25 to 4.0
+        --     gender = "male"|"female",
+        --     culture = "en-US"|"en-UK" -- (any installed on your system)
+        --     isGoogle = true/false -- use google TTS (requires additional STTS config)
+        --     voiceEnabled = true/false (for the controller only) -- to set if the controllers uses text or TTS
+        --     reportEWR = true/false (for ATIS only) -- set to tell the ATIS to report EWRs as threats
+        -- }
     )
+    ]]
 end
 
--- Silence ATC on all the airdromes
+-- uncomment the following lines to silence the default ATC on all the airdromes
+--[[
 veaf.silenceAtcOnAllAirbases()
+]]

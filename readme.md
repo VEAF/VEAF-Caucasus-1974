@@ -2,7 +2,22 @@
 
 ## Cold War Missions
 
-You can use F10 radio menu to start some missions (for RED players).
+~~You can use F10 radio menu to start some missions (for RED players).~~
+
+## SITAC
+
+![sitac](https://user-images.githubusercontent.com/10455897/279460540-48ba9c41-0cd2-44ec-b944-4aa34b23a6c5.jpg)
+
+### Main Airbases
+
+BLUE Airbases:
+
+- Kutaisi
+
+RED Airbases:
+
+- Nalchik
+- Beslan
 
 ## CAP On Demand
 
@@ -33,7 +48,3 @@ RED CAP:
 ```
 
 > a BLUE (side) cap will spawn near your marker (in a 15 Nm radius) between 5000 and 15000 ft (10000 +/- 5000) with a starting heading 270 (with legs of 30 Nm)
-
-
-![schema](https://github.com/VEAF/VEAF-mission-directory-template/raw/master/docs/build_cycle.jpg)
-
